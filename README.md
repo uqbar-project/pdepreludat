@@ -1,6 +1,6 @@
 # PdePreludat
 
-[![build](https://github.com/10Pines/pdepreludat/actions/workflows/build.yml/badge.svg)](https://github.com/10Pines/pdepreludat/actions/workflows/build.yml)
+[![build](https://github.com/uqbar-project/pdepreludat/actions/workflows/build.yml/badge.svg)](https://github.com/uqbar-project/pdepreludat/actions/workflows/build.yml)
 
 Pdepreludat es una biblioteca que busca hacer más amigable y didáctico al Prelude de haskell, por ejemplo mejorando ciertos mensajes de error.
 
@@ -23,7 +23,7 @@ Para más información podés ir a la [página oficial de stack](https://docs.ha
 Correr el siguiente comando que va a crear una carpeta llamada `proyecto-test` (o el nombre que le hayan pasado `stack new`) con el proyecto adentro:
 
 ```bash
-stack new proyecto-test https://github.com/10Pines/pdepreludat/releases/latest/download/pdepreludat.hsfiles
+stack new proyecto-test https://github.com/uqbar-project/pdepreludat/releases/latest/download/pdepreludat.hsfiles
 ```
 
 Una vez creada la carpeta, moverse a la misma y compilar el proyecto con los siguientes comandos:
@@ -167,7 +167,7 @@ Pero falla en ejecución
 > take 2.5 [1,2,3,4]
 *** Exception: Se esperaba un valor entero pero se pasó uno con decimales
 CallStack (from HasCallStack):
-  error, called at /home/juan/Development/Proyectos/10pines/pdepreludat/src/Number.hs:11:39 in main:Number
+  error, called at /home/juan/Development/Proyectos/uqbar-project/pdepreludat/src/Number.hs:11:39 in main:Number
 ```
 
 ## Mostrar funciones como valor en la consola
@@ -247,6 +247,6 @@ Se agregó la función `toFloat` para convertir enteros a decimales, ya que cree
 
 ### Para el desarrollador
 
-Podés ver la [wiki](https://github.com/10Pines/pdepreludat/wiki)
+Podés ver la [wiki](https://github.com/uqbar-project/pdepreludat/wiki)
 
 

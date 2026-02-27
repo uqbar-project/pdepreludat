@@ -40,7 +40,7 @@ ghc-options:
   pdeprelude: -haddock
 
 extra-deps:
-# UNCOMMENT ME - git: https://github.com/10Pines/pdepreludat.git
+# UNCOMMENT ME - git: https://github.com/uqbar-project/pdepreludat.git
 # UNCOMMENT ME   commit: REPLACE WITH CURRENT COMMIT
 
 - ../ # REMOVE THIS LINE
