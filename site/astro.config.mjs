@@ -14,7 +14,7 @@ export default defineConfig({
 					items: [
 					  'guides/entorno',
 	          'guides/nuevo_proyecto',
-					  'guides/trabajo',
+					  'guides/flujo_de_trabajo',
 					  // 'guides/haskelite',
 					  'guides/problemas',
 					],

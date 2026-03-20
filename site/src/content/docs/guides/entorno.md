@@ -83,7 +83,7 @@ Para mejorar nuestra experiencia de Haskell con Visual Studio Code, se deben ins
 
 Si querés ver cómo se instalan los plugins en Visual Studio Code, podés ver este video que muestra cómo se instala el plugin principal de Haskell
 
-![VSC Extensions for Haskell](../../../assets/vscPluginHaskell2.gif)
+<!--![VSC Extensions for Haskell](../../../assets/vscPluginHaskell2.gif)-->
 
 Fijate por ejemplo que el plugin aprovecha los tipos que infiere Haskell y con un simple click te permite escribirlo en tu código. Al final de la instalación, podés ver las extensiones de Haskell instaladas buscando en la solapa Extensions:
 
@@ -109,7 +109,7 @@ Te recomendamos que sigas [estas instrucciones](guides/nuevoProyecto.md) para cr
 
 Si todo quedó correctamente instalado, vas a tener un entorno integrado con el código que vayas escribiendo, como te muestra este video
 
-![Linter para Haskell](../../../assets/vscLinterForHaskell2.gif)
+<!--![Linter para Haskell](../../../assets/vscLinterForHaskell2.gif)-->
 
 Desplegando el menú `View > Problems (Ctrl + Shift + M)` tenés acceso a todos los errores y advertencias que tiene tu archivo `.hs`. Al hacer click sobre un problema te lleva directamente a la línea que origina el inconveniente.
 
