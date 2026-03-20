@@ -1,8 +1,10 @@
 module Main where
 import PdePreludat
 import Test.Hspec
-import Control.Exception (evaluate)
-import qualified Prelude as P
+import Control.Exception (evaluate, SomeException, Exception(..))
+import PdePreludat.Test
+import qualified Prelude as PdePreludat
+import Data.List (isInfixOf)
 
 main :: IO ()
 main = hspec $ do
@@ -84,6 +86,15 @@ main = hspec $ do
             sumOf length [] `shouldBe` 0
           it "aplica la función para una lista con elementos" $ do
             sumOf length ["abracadabra", "pata", "de", "cabra"] `shouldBe` 22
+        
+      describe "Funciones auxiliares de tests" $ do
+        describe "shouldBeEqualUpTo2Decimals" $ do
+          it "pasa el test cuando los dos numeros son iguales hasta 2 decimales" $ do
+            3.14 `shouldBeEqualUpTo2Decimals` 3.1416
+          it "no pasa el test cuando los dos numeros son diferentes con 2 decimales de precisión" $ do
+            let expectedErrorMessage = "3.14 no es igual (comparando con error < 0.01) a 4"
+            3.14 `shouldBeEqualUpTo2Decimals` 4 `shouldThrow` (\(excepcion :: SomeException) -> expectedErrorMessage `isInfixOf` displayException excepcion)
+
 
 shouldBeTheSameNumberAs :: HasCallStack => Number -> Number -> Expectation
 shouldBeTheSameNumberAs aNumber anotherNumber =
