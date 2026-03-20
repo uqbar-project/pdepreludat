@@ -955,7 +955,7 @@ not = P.not
 -- | Devuelve el primer elemento de una tupla
 --
 -- >>> snd (5, 0)
--- 5
+-- 0
 -- >> snd (4, "Copas")
 -- "Copas"
 snd :: (a, b) -> b
