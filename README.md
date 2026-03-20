@@ -245,6 +245,18 @@ Se agregó la función `toFloat` para convertir enteros a decimales, ya que cree
 
 ![Ejemplo en el que al pasar el mouse sobre funciones del PdePreludat se ve la documentacion de las mismas](https://user-images.githubusercontent.com/11432672/113488290-6923f680-9493-11eb-8728-ea5fc12b3a28.gif)
 
+## Agregadas funciones auxiliares para tests
+
+- `shouldBeEqualUpTo2Decimals`
+
+El test pasa si la diferencia entre el primer valor y el segundo es < 0.01.
+
+```haskell
+it "el perimetro de un circulo es 2 * pi * radio" $ do
+    perimetroCirculo 2.5 `shouldBeEqualUpTo2Decimals` 15.7
+```
+
+
 ### Para el desarrollador
 
 Podés ver la [wiki](https://github.com/uqbar-project/pdepreludat/wiki)

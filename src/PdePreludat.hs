@@ -3,6 +3,7 @@ module PdePreludat (
     module Redefinitions,
     module Number,
     module PrettyPrinter,
+    module PdePreludat.Test,
     implementame,
     arreglame,
     (...),
@@ -17,6 +18,7 @@ import PrettyPrinter
 -- Estos modulos definen funciones y tipos, así que es necesario reexportarlos.
 import Number
 import Redefinitions
+import PdePreludat.Test
 
 -- El Prelude se importan solo aquellas cosas que vayan a ser reexportadas,
 -- lo demás se define en los modulos del PdePreludat.
