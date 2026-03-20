@@ -4,23 +4,26 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			sidebar: [
-				{
-					label: 'Guides',
+  integrations: [
+    starlight({
+      title: 'PdePreludat',
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/uqbar-project/pdepreludat' }],
+      sidebar: [
+        {
+					label: 'Guías',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+					  'guides/entorno',
+	          'guides/nuevo_proyecto',
+					  'guides/trabajo',
+					  // 'guides/haskelite',
+					  'guides/problemas',
 					],
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
-		}),
-	],
+        {
+          label: 'Reference',
+          autogenerate: { directory: 'reference' },
+        },
+      ],
+    }),
+  ],
 });
