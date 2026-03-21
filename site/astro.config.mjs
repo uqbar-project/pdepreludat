@@ -8,6 +8,13 @@ export default defineConfig({
     starlight({
       title: 'PdePreludat',
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/uqbar-project/pdepreludat' }],
+      defaultLocale: 'root',
+      locales: {
+        root: {
+          label: 'Español',
+          lang: 'es'
+        },
+      },
       sidebar: [
         {
 					label: 'Guías',
