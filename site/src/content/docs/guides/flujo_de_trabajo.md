@@ -4,7 +4,7 @@ title: Flujo de trabajo
 
 ## Pruebas manuales
 
-Tenemos la posibilidad de abrir un terminal del sistema operativo dentro de VSCode yendo al menú _Terminal -> nuevo terminal_, o bien abrir un terminal nativo del sistema. Allí podremos llamar a nuestro intérprete de Haskell (Ghci) mediante el comando
+Tenemos la posibilidad de abrir un terminal del sistema operativo dentro de VSCode yendo al menú `Terminal -> nueva terminal`, o bien abrir un terminal nativo del sistema. Allí podremos llamar a nuestro intérprete de Haskell (Ghci) mediante el comando:
 
 ```bash
 stack ghci
@@ -14,9 +14,13 @@ Y podemos jugar con nuestra función/es desarrolladas en el archivo `src/Library
 
 ![](../../../assets/pruebas-manuales.png)
 
-### Comandos útiles
+### Comandos en ghci
 
-> **IMPORTANTE:** Cuando modificamos el archivo en Visual Studio Code, para que la consola tome esos cambios debemos ingresar el comando `:r`
+:::danger[Importante]
+
+Cuando modificamos el archivo en Visual Studio Code, para que la consola tome esos cambios debemos ingresar el comando `:r`
+
+:::
 
 Otros comandos una vez que ingresaste a GHCi:
 
@@ -31,7 +35,7 @@ Otros comandos una vez que ingresaste a GHCi:
 
 ## Pruebas automatizadas
 
-Los tests están en el archivo `Spec.hs` de la carpeta `test`. Editá ese archivo y cuando esté listo se pueden correr los tests usando:
+Los tests están en el archivo `Spec.hs` de la carpeta `src`. Editá ese archivo y cuando esté listo se pueden correr los tests usando:
 
 ```bash
 stack clean # con --full forzás a eliminar todos los archivos
