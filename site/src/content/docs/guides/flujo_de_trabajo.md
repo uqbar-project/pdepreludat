@@ -27,7 +27,7 @@ Otros comandos una vez que ingresaste a GHCi:
 - `:i definición` ==> permite ver la información asociada a un tipo/conjunto de tipos. Por ejemplo: `:i []` o `:i Bool`
 - `:set prompt "> "` ==> cambia el "prompt" de la consola por "> ", si en vez de eso escribís cualquier otro string, lo cambia por el string que escribiste.
 
-![](../../../assets/setPrompt.gif)
+![](../../../assets/setPrompt.webm)
 
 ## Pruebas automatizadas
 
@@ -54,6 +54,3 @@ stack test --file-watch
 
 que ejecuta los tests y se queda esperando **cualquier cambio que hagas en los archivos** para volver a ejecutarlos.
 
-## Debugger online
-
-Si querés jugar y debuggear expresiones, te recomendamos que le des un vistazo a [Haskelite](./haskelite.md)
