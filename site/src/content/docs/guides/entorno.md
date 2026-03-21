@@ -104,7 +104,7 @@ Y un detalle más: podés descargarte temas para Visual Studio Code que modifiqu
 
 ## Crear un primer proyecto
 
-Te recomendamos que sigas [estas instrucciones](guides/nuevoProyecto.md) para crear tu primer proyecto.
+Te recomendamos que sigas [estas instrucciones](/guides/nuevo_proyecto) para crear tu primer proyecto.
 
 ## Entorno completo
 
@@ -115,7 +115,7 @@ Si todo quedó correctamente instalado, vas a tener un entorno integrado con el 
 
 Desplegando el menú `View > Problems (Ctrl + Shift + M)` tenés acceso a todos los errores y advertencias que tiene tu archivo `.hs`. Al hacer click sobre un problema te lleva directamente a la línea que origina el inconveniente.
 
-Si tenés algún error, te recomendamos visitar la página [troubleshooting para ayudarte a resolver errores posibles en la instalación de Haskell](./troubleshooting.md)
+Si tenés algún error, te recomendamos visitar la página [troubleshooting para ayudarte a resolver errores posibles en la instalación de Haskell](/guides/problemas)
 
 > Es super importante que puedas contar con un entorno integrado, y que no tengas que escribir el código "a ciegas" para luego compilarlo en una especie de big bang que te fuerce a mirar todos los errores de una. No es una experiencia de usuario recomendable, sobre todo en Haskell...
 

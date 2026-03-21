@@ -3,8 +3,6 @@ title: Nuevo Proyecto
 description: Guía sobre como iniciar un proyecto nuevo usando pdepreludat
 ---
 
-# Nuevo proyecto desde cero en Haskell
-
 Para comenzar a trabajar en Haskell, vamos a utilizar una biblioteca llamada `pdepreludat` que es un juego de palabras entre
 
 - PdeP, el nombre de la materia
@@ -21,13 +19,17 @@ En la terminal de Visual Studio Code, o bien en cualquier terminal Linux o Git B
 stack new proyecto-test https://github.com/10Pines/pdepreludat/releases/latest/download/pdepreludat.hsfiles
 ```
 
-Cualquier error, podés consultar la página de [troubleshooting](./troubleshooting.md).
+Cualquier error, podés consultar la página de [problemas recurrentes](/guides/problemas).
 
 ## Build del proyecto
 
 Una vez creada la carpeta, hay que descargar las dependencias del proyecto, de la siguiente manera:
 
-> **FUNDAMENTAL**: estar parado en la carpeta del proyecto (en este caso `proyecto-test`), no en otra carpeta.
+:::tip[Fundamental]
+
+Asegurate estar parado en la carpeta del proyecto (en este caso `proyecto-test`), no en otra carpeta.
+
+:::
 
 ```bash
 cd proyecto-test
@@ -44,4 +46,4 @@ code .
 
 El comando toma una plantilla y genera un proyecto Haskell con ciertas dependencias, para definir funciones, solamente necesitás editar el archivo `Library.hs` en la carpeta `src`.
 
-Te dejamos el link para ver [cómo es el trabajo en el entorno Haskell](./trabajo.md)
+Te dejamos el link para ver [cómo es el trabajo en el entorno Haskell](/guides/flujo_de_trabajo/)
