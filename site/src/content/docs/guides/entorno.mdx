@@ -2,6 +2,8 @@
 title: Entorno
 ---
 
+import { YouTube } from 'astro-embed';
+
 Esta página te ayudará a instalar y configurar el entorno Haskell para realizar todas las prácticas del **paradigma funcional** para los cursos del miércoles a la noche, necesario para hacer las _katas_ o el trabajo práctico. 
 
 > **Nota importante:** respetá el orden de instalación de las cosas, porque algunos componentes necesitan que otros estén previamente instalados.
@@ -83,8 +85,10 @@ Para mejorar nuestra experiencia de Haskell con Visual Studio Code, se deben ins
 
 Si querés ver cómo se instalan los plugins en Visual Studio Code, podés ver este video que muestra cómo se instala el plugin principal de Haskell
 
-<!-- Este gif muestra intero y no hls, deberiamos actualizarlo, y ahora es demasiado pesado -->
-<!--![VSC Extensions for Haskell](../../../assets/vscPluginHaskell2.gif)-->
+{/*
+Este gif muestra intero y no hls, deberiamos actualizarlo, y ahora es demasiado pesado
+![VSC Extensions for Haskell](../../../assets/vscPluginHaskell2.gif)
+*/}
 
 Fijate por ejemplo que el plugin aprovecha los tipos que infiere Haskell y con un simple click te permite escribirlo en tu código. Al final de la instalación, podés ver las extensiones de Haskell instaladas buscando en la solapa Extensions:
 
@@ -110,8 +114,9 @@ Te recomendamos que sigas [estas instrucciones](/guides/nuevo_proyecto) para cre
 
 Si todo quedó correctamente instalado, vas a tener un entorno integrado con el código que vayas escribiendo, como te muestra este video
 
-<!-- Este gif muestra intero y no hls, deberiamos actualizarlo, y ahora es demasiado pesado -->
-<!--![Linter para Haskell](../../../assets/vscLinterForHaskell2.gif)-->
+{/* Este gif muestra intero y no hls, deberiamos actualizarlo, y ahora es demasiado pesado
+![Linter para Haskell](../../../assets/vscLinterForHaskell2.gif)
+*/}
 
 Desplegando el menú `View > Problems (Ctrl + Shift + M)` tenés acceso a todos los errores y advertencias que tiene tu archivo `.hs`. Al hacer click sobre un problema te lleva directamente a la línea que origina el inconveniente.
 
@@ -121,4 +126,4 @@ Si tenés algún error, te recomendamos visitar la página [troubleshooting para
 
 ## Video introductorio
 
-Te dejamos un [tutorial que explica cómo se trabaja en Haskell con el Visual Studio Code](https://youtu.be/aTXvOl_lrqQ).
+<YouTube id="https://www.youtube.com/watch?v=aTXvOl_lrqQ" />
