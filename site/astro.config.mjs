@@ -28,11 +28,7 @@ export default defineConfig({
 					  // 'guides/haskelite',
 					  'guides/problemas',
 					],
-				},
-        {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
-        },
+				}
       ],
       plugins: [
         starlightImageZoom(),
