@@ -16,7 +16,7 @@ El objetivo de la biblioteca es que tengas una experiencia más amistosa con alg
 En la terminal de Visual Studio Code, o bien en cualquier terminal Linux o Git Bash, podés correr el siguiente comando que va a crear una carpeta llamada `primer-proyecto` (o el nombre que ustedes quieran, siempre que no tenga números después del guión medio).
 
 ```bash
-stack new proyecto-test https://github.com/10Pines/pdepreludat/releases/latest/download/pdepreludat.hsfiles
+stack new proyecto-test https://github.com/uqbar-project/pdepreludat/releases/latest/download/pdepreludat.hsfiles
 ```
 
 Cualquier error, podés consultar la página de [problemas recurrentes](/guides/problemas).

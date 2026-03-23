@@ -57,7 +57,7 @@ export LC_ALL=C.UTF-8
 Si ejecutás este comando
 
 ```bash
-stack new proyecto-test https://github.com/10Pines/pdepreludat/releases/download/latest/pdepreludat.hsfiles
+stack new proyecto-test https://github.com/uqbar-project/pdepreludat/releases/download/latest/pdepreludat.hsfiles
 ```
 
 y recibís un mensaje de error similar a
