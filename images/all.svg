@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg width="640" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ffffff" fill-opacity="null" height="227" id="svg_24" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" width="673" x="-16.4" y="-10.5"/>
+  <ellipse cx="22.6" cy="135.6" fill="#ffffff" fill-opacity="null" id="svg_3" rx="94" ry="94" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="5" transform="matrix(0.805128, 0, 0, 0.805128, 93.4041, 0.424614)"/>
+  <ellipse cx="66.6" cy="262.6" fill="#ffffff" id="svg_4" rx="15" ry="15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(1, 0, 0, 1, 13, -179)"/>
+  <ellipse cx="319.2" cy="396.1" fill="#007f00" id="svg_5" rx="15" ry="15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(1, 0, 0, 1, -163, -295)"/>
+  <ellipse cx="504.2" cy="522.1" fill="#007fff" id="svg_6" rx="15" ry="15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(1, 0, 0, 1, -425, -388)"/>
+  <ellipse cx="757.2" cy="605.1" fill="#ffffff" id="svg_7" rx="15" ry="15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(1, 0, 0, 1, -621, -463)"/>
+  <ellipse cx="953.2" cy="680.1" fill="#ff0000" id="svg_8" rx="15" ry="15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(1, 0, 0, 1, -830, -613)"/>
+  <path d="m188.6,117.6c38.47,-12.2 71.07,-42.93 112.4,-40.6c41.33,2.33 72.67,28.67 109,43" fill="#ffffff" id="svg_15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(1, 0, 0, 1, 12, -23)"/>
+  <text fill="#000000" fill-opacity="null" font-family="Monospace" font-size="24" id="svg_18" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" style="cursor: move;" text-anchor="middle" transform="matrix(0.704434, 0, 0, 0.704434, 92.0197, 5.85714)" x="216.6" xml:space="preserve" y="48.6">all</text>
+  <text fill="#000000" font-family="Monospace" font-size="24" font-weight="bold" id="svg_19" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="matrix(0.704434, 0, 0, 0.704434, 92.0197, -176.143)" x="340.96" xml:space="preserve" y="306.41">estaPintado</text>
+  <path d="m430.6,98.5l-16.6,-16.5l-6,19l22.6,-2.5z" fill="#000000" id="svg_20" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3"/>
+  <text fill="#000000" font-family="Monospace" font-size="24" id="svg_21" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="matrix(0.704434, 0, 0, 0.704434, 82.0197, -107.143)" x="323.92" xml:space="preserve" y="408.05">estaPintado ::    -&gt; Bool</text>
+  <ellipse cx="483.2" cy="400.7" fill="#7f7f7f" id="svg_22" rx="15" ry="15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="3" transform="matrix(0.857143, 0, 0, 0.857143, -70.4714, -168.257)"/>
+  <text fill="#000000" fill-opacity="null" font-family="Monospace" font-size="24" font-weight="bold" id="svg_1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" style="cursor: text;" text-anchor="middle" transform="matrix(1, 0, 0, 1, 2, 11)" x="476.6" xml:space="preserve" y="98.5">False</text>
+ </g>
+</svg>

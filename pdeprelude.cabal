@@ -1,10 +1,10 @@
-cabal-version: 1.12
+cabal-version: 1.18
 
 -- This file has been generated from package.yaml by hpack version 0.39.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5e985157918f370e7ae81fe18ffbd0843dcae8d40d946ce8095da14db996adea
+-- hash: c3edebe198f0cdc3a332a4f3e090c6a3c8f453557dbd55c0de59005478bcb5ec
 
 name:           pdeprelude
 version:        0.2.0.0
@@ -20,6 +20,27 @@ build-type:     Simple
 extra-source-files:
     README.md
     ChangeLog.md
+extra-doc-files:
+    images/acos.png
+    images/all.png
+    images/all.svg
+    images/any.png
+    images/any.svg
+    images/asin.png
+    images/atan.png
+    images/cos.png
+    images/cosh.png
+    images/exp.png
+    images/filter.png
+    images/filter.svg
+    images/log.png
+    images/logBase.png
+    images/map.png
+    images/map.svg
+    images/sin.png
+    images/sinh.png
+    images/tan.png
+    images/tanh.png
 
 source-repository head
   type: git
