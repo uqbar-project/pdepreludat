@@ -210,6 +210,10 @@ minimum = P.minimum
 -- True
 -- >>> all even [2, 4, 7]
 -- False
+-- 
+-- Ejemplo gráfico:
+--
+-- ![all](https:\/\/raw.githubusercontent.com\/uqbar-project\/pdepreludat\/36b475779bc38087cf97f7eb6c3df7cd5ad6a751\/images\/all.png)
 all :: (a -> Bool) -> [a] -> Bool
 all = P.all
 
@@ -220,6 +224,10 @@ all = P.all
 -- True
 -- >>> any even [1, 3, 5]
 -- False
+-- 
+-- Ejemplo gráfico:
+--
+-- ![any](https:\/\/raw.githubusercontent.com\/uqbar-project\/pdepreludat\/36b475779bc38087cf97f7eb6c3df7cd5ad6a751\/images\/any.png)
 any :: (a -> Bool) -> [a] -> Bool
 any = P.any
 
@@ -866,6 +874,10 @@ infixr 9 .
 -- [2,4,6,8]
 -- >>> filter ((<4).length) ["hola", "que", "tal"]
 -- ["que", "tal"]
+-- 
+-- Ejemplo gráfico:
+--
+-- ![filter](https:\/\/raw.githubusercontent.com\/uqbar-project\/pdepreludat\/36b475779bc38087cf97f7eb6c3df7cd5ad6a751\/images\/any.png)
 filter :: (a -> Bool) -> [a] -> [a]
 filter = P.filter
 
@@ -940,6 +952,10 @@ last = P.last
 -- [4,5,6]
 -- >> map head ["paradigmas", "de", "programacion"]
 -- "pdp"
+--
+-- Ejemplo gráfico:
+--
+-- ![map](https:\/\/raw.githubusercontent.com\/uqbar-project\/pdepreludat\/36b475779bc38087cf97f7eb6c3df7cd5ad6a751\/images\/map.png)
 map :: (a -> b) -> [a] -> [b]
 map = P.map
 
