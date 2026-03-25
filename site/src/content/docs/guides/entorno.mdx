@@ -10,30 +10,41 @@ Esta página te ayudará a instalar y configurar el entorno Haskell para realiza
 
 ## ghcup
 
+:::note
+
 Si tenés una instalación anterior de **Stack, tenés que eliminarla** siguiendo [estos pasos](https://docs.haskellstack.org/en/stable/commands/uninstall_command/).
+
+:::
 
 Si estás en Linux o Mac te conviene instalar estas dependencias:
 
 ```bash
-sudo apt install libgmp3-dev
+apt install build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev pkg-config
 ```
 
-**ghcup** es un conjunto de herramientas estándar que facilita enormemente el desarrollo comercial y académico en Haskell. Se instala [ingresando a esta página](https://www.haskell.org/ghcup/), donde copiás y pegás en una terminal el comando que te propone (está basado en el sistema operativo que vos tengas). Por ejemplo en Windows vas a verlo así:
+**ghcup** es una herramienta que facilita enormemente el desarrollo comercial y académico en Haskell. Se instala [ingresando a esta página](https://www.haskell.org/ghcup/), donde copiás y pegás en una terminal el comando que te propone (está basado en el sistema operativo que vos tengas). Por ejemplo en Windows vas a verlo así:
 
 ![](../../../assets/ghcup-win.jpeg)
 
-> ATENCIÓN: el script de instalación está pensado para ejecutarse en Powershell, no en Git Bash
+:::danger[ATENCIÓN]
 
-Mientras que en Linux-based lo vas a ver así:
+El script de instalación está pensado para ejecutarse en Powershell, no en Git Bash
+
+:::
+
+Mientras que en Linux lo vas a ver así:
 
 ![](../../../assets/ghcup-linux.png)
 
 Seleccioná **todas las herramientas que te propone**, incluyendo
 
+apt install build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev pkg-config
+
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | BOOTSTRAP_HASKELL_GHC_VERSION=9.10.3 sh
+
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | BOOTSTRAP_HASKELL_NONINTERACTIVE=1 BOOTSTRAP_HASKELL_GHC_VERSION=9.10.3 BOOTSTRAP_HASKELL_CABAL_VERSION=latest BOOTSTRAP_HASKELL_INSTALL_STACK=1 BOOTSTRAP_HASKELL_INSTALL_HLS=1 BOOTSTRAP_HASKELL_ADJUST_BASHRC=P sh
 - **stack**: la herramienta con la que vamos a automatizar tareas
-- **cabal**: el manejador de dependencias que utiliza internamente stack
 - **HLS** o Haskell Language Server, que ofrece servicios importantes para Visual Studio Code
-- y cualquier otro software que te ofrezca
 
 ### Chequeo de la instalación de ghcup
 
