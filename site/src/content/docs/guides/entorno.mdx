@@ -16,17 +16,16 @@ Respetá el orden de instalación de las cosas, algunos componentes necesitan qu
 
 ## GHCup
 
+**GHCup** es una herramienta estándar que facilita enormemente el desarrollo
+comercial y académico en Haskell.
 
-:::tip
+Si estás usando MacOS, Linux o WSL, se instala corriendo:
 
-Si tenés una instalación anterior de **Stack, tenés que eliminarla** siguiendo [estos pasos](https://docs.haskellstack.org/en/stable/commands/uninstall_command/).
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | BOOTSTRAP_HASKELL_GHC_VERSION=9.10.3 sh
+```
 
-:::
-
-**GHCup** es un conjunto de herramientas estándar que facilita enormemente el
-desarrollo comercial y académico en Haskell. Se instala [ingresando a esta página](https://www.haskell.org/ghcup/),
-donde copiás y pegás en una terminal el comando que te propone (está basado en
-el sistema operativo que vos tengas).
+Si estás usando Windows, seguí las instrucciones que están en la [página oficial](https://www.haskell.org/ghcup/).
 
 GHCup te va a hacer varias preguntas sobre la instalación, leelas con cuidado
 pero las opciones que propone por defecto son apropiadas, podes elegirlas con `Enter`.
